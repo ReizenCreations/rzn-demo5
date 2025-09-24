@@ -8,8 +8,8 @@ const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 // Get public URLs for your logo images
-const headerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('R.19.png').data.publicUrl;
-const footerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('R.19.png').data.publicUrl;
+const headerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('R.20.png').data.publicUrl;
+const footerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('R.20.png').data.publicUrl;
 
 function App() {
   return (
