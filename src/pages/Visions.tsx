@@ -97,8 +97,76 @@ function Visions() {
           </div>
         </div>
       </main>
+
+      {/* NEW ANIMATED SECTION BELOW */}
+      <section className="py-20 bg-gradient-to-br from-blue-50 to-indigo-100">
+        <div className="container mx-auto px-6">
+          <div className="max-w-6xl mx-auto">
+            <div 
+              ref={heroRef}
+              className={`text-center mb-16 transition-all duration-700 ease-out ${
+                heroInView 
+                  ? 'opacity-100 translate-y-0 animate-slide-up-fade-in' 
+                  : 'opacity-0 translate-y-8'
+              }`}
+            >
+              <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+                Animated Vision Section
+              </h2>
+              <p className="text-xl text-gray-700 leading-relaxed">
+                This section demonstrates the scroll-triggered animations you requested
+              </p>
+            </div>
+
+            <div 
+              ref={cardsRef}
+              className="grid md:grid-cols-2 gap-12 mb-16"
+            >
+              <div className={`bg-white p-8 rounded-2xl shadow-xl transition-all duration-700 ease-out ${
+                cardsInView 
+                  ? 'opacity-100 translate-x-0 animate-slide-in-left' 
+                  : 'opacity-0 -translate-x-8'
+              }`}>
+                <h3 className="text-3xl font-bold text-blue-600 mb-4">Left Animation</h3>
+                <p className="text-gray-700 leading-relaxed text-lg">
+                  This card slides in from the left when you scroll down to this section. 
+                  The animation is smooth and engaging, creating visual interest.
+                </p>
+              </div>
+              
+              <div className={`bg-white p-8 rounded-2xl shadow-xl transition-all duration-700 ease-out ${
+                cardsInView 
+                  ? 'opacity-100 translate-x-0 animate-slide-in-right' 
+                  : 'opacity-0 translate-x-8'
+              }`}>
+                <h3 className="text-3xl font-bold text-indigo-600 mb-4">Right Animation</h3>
+                <p className="text-gray-700 leading-relaxed text-lg">
+                  This card slides in from the right, creating a balanced and dynamic 
+                  effect as both cards animate into view simultaneously.
+                </p>
+              </div>
+            </div>
     </div>
   );
 }
 
+            <div 
+              ref={ctaRef}
+              className={`bg-gradient-to-r from-purple-600 to-blue-600 text-white p-12 rounded-2xl text-center transition-all duration-700 ease-out ${
+                ctaInView 
+                  ? 'opacity-100 translate-y-0 animate-slide-up-fade-in' 
+                  : 'opacity-0 translate-y-8'
+              }`}
+            >
+              <h3 className="text-4xl font-bold mb-6">Final Animated Section</h3>
+              <p className="text-xl mb-8 opacity-90">
+                This section slides up and fades in when it enters the viewport
+              </p>
+              <div className="bg-white text-purple-600 px-8 py-4 rounded-full font-bold text-lg inline-block">
+                Animation Complete!
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 export default Visions;
