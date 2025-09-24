@@ -279,7 +279,7 @@ function HomePage() {
                 color: '#edfbff'
               }}
             >
-              <span>Claim Your Free Strategy Session</span>
+              <span>Claim Free Strategy Session</span>
               <ArrowRight className="w-5 h-5" />
             </a>
           </div>
