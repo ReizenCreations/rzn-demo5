@@ -273,7 +273,7 @@ function HomePage() {
               href="https://forms.gle/7hvhgiXNQhdsU7Gv6" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="px-10 py-10 rounded-full text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 inline-flex items-center space-x-3"
+              className="px-10 py-5 rounded-full text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 inline-flex items-center space-x-3"
               style={{ 
                 background: 'linear-gradient(to right, #2563eb, #1d4ed8)',
                 color: '#edfbff'
