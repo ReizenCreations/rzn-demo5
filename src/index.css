@@ -53,3 +53,14 @@ body {
 .animate-slide-in-right {
   animation: slideInFromRight 0.9s ease-out forwards;
 }
+
+/* Legendary shimmer effect */
+@keyframes legendary-shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.legendary-shimmer {
+  background-size: 200% 100%;
+  animation: legendary-shimmer 3s ease-in-out infinite;
+}
