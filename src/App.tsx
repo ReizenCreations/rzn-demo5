@@ -12,9 +12,9 @@ const headerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('R.22.s
 const footerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('R.20.png').data.publicUrl;
 
 // Get public URLs for service icons
-const icon1Url = supabase.storage.from('RznWebAssets').getPublicUrl('i1.svg').data.publicUrl;
-const icon2Url = supabase.storage.from('RznWebAssets').getPublicUrl('i2.svg').data.publicUrl;
-const icon3Url = supabase.storage.from('RznWebAssets').getPublicUrl('i3.svg').data.publicUrl;
+const icon1Url = supabase.storage.from('RznWebAssets').getPublicUrl('i4.svg').data.publicUrl;
+const icon2Url = supabase.storage.from('RznWebAssets').getPublicUrl('i5.svg').data.publicUrl;
+const icon3Url = supabase.storage.from('RznWebAssets').getPublicUrl('i6.svg').data.publicUrl;
 
 function App() {
   return (
