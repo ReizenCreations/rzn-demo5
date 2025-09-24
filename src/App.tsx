@@ -1,6 +1,8 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { createClient } from '@supabase/supabase-js';
 import { Play, Star, TrendingUp, Users, Zap, ArrowRight, CheckCircle, Award, Target, Rocket, Wrench } from 'lucide-react';
+import Visions from './pages/Visions';
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
 const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
@@ -16,9 +18,9 @@ const icon1Url = supabase.storage.from('RznWebAssets').getPublicUrl('i4.svg').da
 const icon2Url = supabase.storage.from('RznWebAssets').getPublicUrl('i5.svg').data.publicUrl;
 const icon3Url = supabase.storage.from('RznWebAssets').getPublicUrl('i6.svg').data.publicUrl;
 
-function App() {
+function HomePage() {
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#edfbff' }}>
+    <>
       {/* Header */}
       <header className="w-full bg-gray-950 border-b border-gray-950">
         <div className="container mx-auto px-6 py-4">
@@ -296,10 +298,23 @@ function App() {
             © 2025 Reizen Creations. All rights reserved.
           </p>
           <p style={{ color: '#edfbff', opacity: 0.4 }}>
-            Turning visions into market domination, one campaign at a time.
+            Turning <a href="/visions" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-400 transition-colors duration-200">visions</a> into market domination, one campaign at a time.
           </p>
         </div>
       </footer>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <div className="min-h-screen" style={{ backgroundColor: '#edfbff' }}>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/visions" element={<Visions />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
