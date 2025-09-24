@@ -155,9 +155,9 @@ function HomePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           {/* Header */}
           <div className="text-center mb-16">
-            <div className="inline-flex items-center bg-emerald-500/10 border border-emerald-500/20 rounded-full px-6 py-2 mb-6">
+            <div className="inline-flex items-center border rounded-full px-6 py-2 mb-6" style={{ backgroundColor: 'rgba(237, 251, 255, 0.1)', borderColor: 'rgba(237, 251, 255, 0.2)' }}>
               <div className="w-2 h-2 bg-emerald-400 rounded-full mr-3 animate-pulse"></div>
-              <span className="text-emerald-400 font-semibold text-sm uppercase tracking-wide">Partnership Opportunity</span>
+              <span className="font-semibold text-sm uppercase tracking-wide" style={{ color: '#edfbff' }}>Partnership Opportunity</span>
             </div>
             <h3 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
               I Don't Have Testimonials Yet...
