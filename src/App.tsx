@@ -138,7 +138,7 @@ function App() {
         
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/20 to-blue-500/20"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-emerald-400/15 via-teal-500/10 to-blue-600/20"></div>
         </div>
         
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative">
