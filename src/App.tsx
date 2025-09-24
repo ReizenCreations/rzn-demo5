@@ -33,7 +33,7 @@ function App() {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-2xl md:text-5xl font-bold mb-16 leading-tight">
               Everyone is selling, few are converting... Here's how Reizen helps coaches fix that 
-              <span className="bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent"> and scale fast</span>
+              <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent"> and scale fast</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed">
               
@@ -55,7 +55,7 @@ function App() {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 brightness-90 group-hover:brightness-100"
                 />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-20 h-20 bg-orange-500/90 group-hover:bg-orange-500 rounded-full flex items-center justify-center group-hover:scale-110 transition-all duration-300 shadow-2xl backdrop-blur-sm">
+                  <div className="w-20 h-20 bg-blue-600/90 group-hover:bg-blue-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-all duration-300 shadow-2xl backdrop-blur-sm">
                     <Play className="w-8 h-8 text-white ml-1" fill="currentColor" />
                   </div>
                 </div>
@@ -66,7 +66,7 @@ function App() {
               href="https://forms.gle/7hvhgiXNQhdsU7Gv6" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 inline-flex items-center space-x-3"
+              className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 inline-flex items-center space-x-3"
             >
               <span>Start Your Transformation</span>
               <ArrowRight className="w-5 h-5" />
@@ -109,7 +109,7 @@ function App() {
               }
             ].map((service, index) => (
               <div key={index} className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
-                <div className="text-orange-500 mb-6">
+                <div className="text-blue-600 mb-6">
                   {service.icon}
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">{service.title}</h3>
@@ -242,7 +242,7 @@ function App() {
               { number: "0", label: "Successful Campaigns" }
             ].map((stat, index) => (
               <div key={index} className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-orange-400 mb-2">{stat.number}</div>
+                <div className="text-4xl md:text-5xl font-bold text-blue-400 mb-2">{stat.number}</div>
                 <div className="text-gray-300">{stat.label}</div>
               </div>
             ))}
@@ -259,7 +259,7 @@ function App() {
               href="https://forms.gle/7hvhgiXNQhdsU7Gv6" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-10 py-5 rounded-full text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 inline-flex items-center space-x-3"
+              className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-10 py-5 rounded-full text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 inline-flex items-center space-x-3"
             >
               <span>Claim Your Free Strategy Session</span>
               <ArrowRight className="w-5 h-5" />
