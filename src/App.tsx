@@ -110,7 +110,7 @@ function App() {
                 iconUrl: icon3Url,
                 title: "Growth Hacking Systems",
                 description: "Implement growth systems that scale automatically, driving consistent revenue growth month over month.",
-                features: ["Conversion Optimization", "Performance Analytics"]
+                features: ["Conversion Optimization", "Performance Analytics", "Funnel Building"]
               }
             ].map((service, index) => (
               <div key={index} className="p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100" style={{ backgroundColor: '#edfbff' }}>
