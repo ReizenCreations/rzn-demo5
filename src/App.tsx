@@ -265,7 +265,7 @@ function HomePage() {
 
           {/* CTA */}
           <div className="text-center mt-16">
-            <h3 className="text-3xl font-bold mb-6">Ready to Write The Success Stories?</h3>
+            <h3 className="text-3xl font-bold mb-18">Ready to Write The Success Stories?</h3>
             <p className="text-xl mb-32 max-w-2xl mx-auto" style={{ color: '#edfbff', opacity: 0.8 }}>
               Your competition isn't slowing down
             </p>
