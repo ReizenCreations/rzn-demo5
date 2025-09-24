@@ -28,7 +28,7 @@ function HomePage() {
             <img 
               src={headerLogoUrl} 
               alt="Reizen Creations Logo" 
-             className="w-48 md:w-96 h-auto"
+             className="w-48 md:w-80 h-auto"
             />
           </div>
         </div>
