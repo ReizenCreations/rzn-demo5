@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Fix mobile overscroll white flash */
+html,
+body {
+  background-color: #030712; /* gray-950 */
+}
