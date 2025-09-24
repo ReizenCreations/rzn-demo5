@@ -8,7 +8,7 @@ const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 // Get public URLs for your logo images
-const headerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('R.21.svg').data.publicUrl;
+const headerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('R.22.svg').data.publicUrl;
 const footerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('R.20.png').data.publicUrl;
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
             <img 
               src={headerLogoUrl} 
               alt="Reizen Creations Logo" 
-             className="w-48 md:w-96 h-auto"
+             className="w-24 md:w-56 h-auto"
             />
           </div>
         </div>
