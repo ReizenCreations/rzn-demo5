@@ -1,7 +1,12 @@
 import React from 'react';
 import { ArrowLeft } from 'lucide-react';
+import { useInView } from '../hooks/useInView';
 
 function Visions() {
+  const { ref: heroRef, isInView: heroInView } = useInView();
+  const { ref: cardsRef, isInView: cardsInView } = useInView();
+  const { ref: ctaRef, isInView: ctaInView } = useInView();
+
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#edfbff' }}>
       {/* Header */}
@@ -23,7 +28,14 @@ function Visions() {
       {/* Main Content */}
       <main className="container mx-auto px-6 py-20">
         <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-16">
+          <div 
+            ref={heroRef}
+            className={`text-center mb-16 transition-all duration-700 ease-out ${
+              heroInView 
+                ? 'opacity-100 translate-y-0 animate-slide-up-fade-in' 
+                : 'opacity-0 translate-y-8'
+            }`}
+          >
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
               Turning Visions Into Reality
             </h1>
@@ -33,8 +45,15 @@ function Visions() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 mb-16">
-            <div className="bg-white p-8 rounded-2xl shadow-lg">
+          <div 
+            ref={cardsRef}
+            className="grid md:grid-cols-2 gap-12 mb-16"
+          >
+            <div className={`bg-white p-8 rounded-2xl shadow-lg transition-all duration-700 ease-out ${
+              cardsInView 
+                ? 'opacity-100 translate-x-0 animate-slide-in-left' 
+                : 'opacity-0 -translate-x-8'
+            }`}>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h2>
               <p className="text-gray-700 leading-relaxed">
                 To be the catalyst that transforms ambitious coaches and entrepreneurs 
@@ -42,7 +61,11 @@ function Visions() {
               </p>
             </div>
             
-            <div className="bg-white p-8 rounded-2xl shadow-lg">
+            <div className={`bg-white p-8 rounded-2xl shadow-lg transition-all duration-700 ease-out ${
+              cardsInView 
+                ? 'opacity-100 translate-x-0 animate-slide-in-right' 
+                : 'opacity-0 translate-x-8'
+            }`}>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Your Vision</h2>
               <p className="text-gray-700 leading-relaxed">
                 We understand that your vision is unique. Our role is to provide the strategic 
@@ -51,7 +74,14 @@ function Visions() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-blue-600 to-blue-700 text-white p-12 rounded-2xl text-center">
+          <div 
+            ref={ctaRef}
+            className={`bg-gradient-to-br from-blue-600 to-blue-700 text-white p-12 rounded-2xl text-center transition-all duration-700 ease-out ${
+              ctaInView 
+                ? 'opacity-100 translate-y-0 animate-slide-up-fade-in' 
+                : 'opacity-0 translate-y-8'
+            }`}
+          >
             <h2 className="text-3xl font-bold mb-6">Ready to Bring Your Vision to Life?</h2>
             <p className="text-xl mb-8 opacity-90">
               Let's work together to turn your vision into market domination.
