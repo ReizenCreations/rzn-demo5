@@ -21,7 +21,7 @@ function App() {
             <img 
               src={headerLogoUrl} 
               alt="Reizen Creations Logo" 
-              className="w-40 h-auto"
+              className="w-24 h-auto"
             />
           </div>
         </div>
