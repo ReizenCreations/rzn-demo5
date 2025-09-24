@@ -146,9 +146,6 @@ function Visions() {
                 </p>
               </div>
             </div>
-    </div>
-  );
-}
 
             <div 
               ref={ctaRef}
@@ -169,4 +166,8 @@ function Visions() {
           </div>
         </div>
       </section>
+    </div>
+  );
+}
+
 export default Visions;
