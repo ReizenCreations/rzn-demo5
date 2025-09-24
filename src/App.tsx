@@ -11,6 +11,11 @@ const supabase = createClient(supabaseUrl, supabaseAnonKey);
 const headerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('R.22.svg').data.publicUrl;
 const footerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('R.20.png').data.publicUrl;
 
+// Get public URLs for service icons
+const icon1Url = supabase.storage.from('RznWebAssets').getPublicUrl('i1.svg').data.publicUrl;
+const icon2Url = supabase.storage.from('RznWebAssets').getPublicUrl('i2.svg').data.publicUrl;
+const icon3Url = supabase.storage.from('RznWebAssets').getPublicUrl('i3.svg').data.publicUrl;
+
 function App() {
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#edfbff' }}>
@@ -90,19 +95,19 @@ function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {[
               {
-                icon: <Target className="w-8 h-8" />,
+                iconUrl: icon1Url,
                 title: "Strategic Brand Positioning",
                 description: "Position your brand as the undisputed leader in your market with data-driven positioning strategies.",
                 features: ["Competitive Analysis", "Brand Architecture", "Market Positioning", "Value Proposition"]
               },
               {
-                icon: <Rocket className="w-8 h-8" />,
+                iconUrl: icon2Url,
                 title: "Digital Marketing Acceleration",
                 description: "Accelerate your digital presence with cutting-edge campaigns that convert prospects into loyal customers.",
                 features: ["PPC Management", "Social Media Strategy", "Content Marketing", "SEO Optimization"]
               },
               {
-                icon: <TrendingUp className="w-8 h-8" />,
+                iconUrl: icon3Url,
                 title: "Growth Hacking Systems",
                 description: "Implement growth systems that scale automatically, driving consistent revenue growth month over month.",
                 features: ["Conversion Optimization", "Sales Funnel Design", "Marketing Automation", "Performance Analytics"]
@@ -110,7 +115,11 @@ function App() {
             ].map((service, index) => (
               <div key={index} className="p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100" style={{ backgroundColor: '#edfbff' }}>
                 <div className="text-blue-600 mb-6">
-                  {service.icon}
+                  <img 
+                    src={service.iconUrl} 
+                    alt={`${service.title} icon`}
+                    className="w-8 h-8"
+                  />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">{service.title}</h3>
                 <p className="text-gray-600 mb-6">{service.description}</p>
