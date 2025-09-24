@@ -118,7 +118,7 @@ function App() {
                   <img 
                     src={service.iconUrl} 
                     alt={`${service.title} icon`}
-                    className="w-40 h-auto"
+                    className="w-12 h-auto"
                   />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">{service.title}</h3>
