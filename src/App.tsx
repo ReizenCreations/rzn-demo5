@@ -98,19 +98,19 @@ function App() {
                 iconUrl: icon1Url,
                 title: "Strategic Brand Positioning",
                 description: "Position your brand as the undisputed leader in your market with data-driven positioning strategies.",
-                features: ["Competitive Analysis", "Brand Architecture", "Market Positioning", "Value Proposition"]
+                features: ["Competitive Analysis", "Brand Architecture"]
               },
               {
                 iconUrl: icon2Url,
                 title: "Digital Marketing Acceleration",
                 description: "Accelerate your digital presence with cutting-edge campaigns that convert prospects into loyal customers.",
-                features: ["PPC Management", "Social Media Strategy", "Content Marketing", "SEO Optimization"]
+                features: ["Social Media Strategy", "SEO Optimization"]
               },
               {
                 iconUrl: icon3Url,
                 title: "Growth Hacking Systems",
                 description: "Implement growth systems that scale automatically, driving consistent revenue growth month over month.",
-                features: ["Conversion Optimization", "Sales Funnel Design", "Marketing Automation", "Performance Analytics"]
+                features: ["Conversion Optimization", "Performance Analytics"]
               }
             ].map((service, index) => (
               <div key={index} className="p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100" style={{ backgroundColor: '#edfbff' }}>
