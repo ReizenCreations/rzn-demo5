@@ -21,7 +21,7 @@ function App() {
             <img 
               src={headerLogoUrl} 
               alt="Reizen Creations Logo" 
-              className="w-46 h-auto"
+              className="w-32 md:w-48 h-auto"
             />
           </div>
         </div>
@@ -274,7 +274,7 @@ function App() {
           <img 
             src={footerLogoUrl} 
             alt="Reizen Creations Logo" 
-            className="w-15 h-15 mx-auto mb-6 opacity-80"
+            className="w-15 h-auto mx-auto mb-6 opacity-80"
           />
           <p className="text-gray-400 mb-4">
             © 2025 Reizen Creations. All rights reserved.
