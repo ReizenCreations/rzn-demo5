@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { createClient } from '@supabase/supabase-js';
 import { Play, Star, TrendingUp, Users, Zap, ArrowRight, CheckCircle, Award, Target, Rocket, Wrench } from 'lucide-react';
@@ -19,6 +20,12 @@ const icon2Url = supabase.storage.from('RznWebAssets').getPublicUrl('i5.svg').da
 const icon3Url = supabase.storage.from('RznWebAssets').getPublicUrl('i6.svg').data.publicUrl;
 
 function HomePage() {
+  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
+
+  const handlePlayVideo = () => {
+    setIsVideoPlaying(true);
+  };
+
   return (
     <>
       {/* Header */}
@@ -48,17 +55,30 @@ function HomePage() {
             
             {/* Video Player */}
             <div className="relative max-w-3xl mx-auto mb-12">
-              {/* Video Under Construction Title */}
-              
               <div className="aspect-video rounded-2xl shadow-2xl overflow-hidden">
-                <iframe
-                  src="https://www.youtube.com/embed/OiYVRtxKYqU"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                  className="w-full h-full"
-                ></iframe>
+                {!isVideoPlaying ? (
+                  <div className="relative w-full h-full bg-gray-800 flex items-center justify-center cursor-pointer" onClick={handlePlayVideo}>
+                    <img 
+                      src="/image.png" 
+                      alt="Video thumbnail" 
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+                      <div className="bg-white bg-opacity-90 rounded-full p-6 hover:bg-opacity-100 transition-all duration-300 transform hover:scale-110">
+                        <Play className="w-12 h-12 text-gray-900 ml-1" />
+                      </div>
+                    </div>
+                  </div>
+                ) : (
+                  <iframe
+                    src="https://www.youtube.com/embed/OiYVRtxKYqU?autoplay=1"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                    className="w-full h-full"
+                  ></iframe>
+                )}
               </div>
             </div>
 
