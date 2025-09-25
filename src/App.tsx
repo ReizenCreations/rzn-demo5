@@ -74,7 +74,7 @@ function HomePage() {
                   </div>
                 ) : (
                   <iframe
-                    src="https://www.youtube.com/embed/OiYVRtxKYqU?autoplay=1&modestbranding=1&rel=0&showinfo=0&controls=1&disablekb=1&fs=0&iv_load_policy=3&cc_load_policy=0&start=0&end=0&loop=0&playlist=OiYVRtxKYqU&volume=75"
+                    src="https://www.youtube.com/embed/OiYVRtxKYqU?autoplay=1&modestbranding=1&rel=0&showinfo=1&controls=0&disablekb=1&fs=0&iv_load_policy=3&cc_load_policy=0&start=0&end=0&loop=0&playlist=OiYVRtxKYqU&volume=75"
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
