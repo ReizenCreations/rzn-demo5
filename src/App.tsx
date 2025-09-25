@@ -143,8 +143,8 @@ function HomePage() {
       <section className="py-20 animated-gradient-bg relative overflow-hidden">
         {/* Animated border overlay */}
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-0 left-0 right-0 h-0.5 opacity-80 legendary-shimmer" style={{ background: 'linear-gradient(to right, #f43f5e, #2563eb, #10b981, #efb736, #f43f5e)' }}></div>
-          <div className="absolute bottom-0 left-0 right-0 h-0.5 opacity-80 legendary-shimmer" style={{ background: 'linear-gradient(to right, #efb736, #10b981, #2563eb, #f43f5e, #efb736)' }}></div>
+          <div className="absolute top-0 left-0 right-0 h-0.5 opacity-80 legendary-shimmer" style={{ background: 'linear-gradient(to right, #2563eb, #edfbff, #2563eb, #edfbff, #2563eb)' }}></div>
+          <div className="absolute bottom-0 left-0 right-0 h-0.5 opacity-80 legendary-shimmer" style={{ background: 'linear-gradient(to right, #edfbff, #2563eb, #edfbff, #2563eb, #edfbff)' }}></div>
         </div>
         
         {/* Dark overlay to maintain readability */}
