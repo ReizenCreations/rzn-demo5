@@ -14,6 +14,9 @@ const supabase = createClient(supabaseUrl, supabaseAnonKey);
 const headerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('R.22.svg').data.publicUrl;
 const footerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('R.20.png').data.publicUrl;
 
+// Get public URL for video thumbnail
+const videoThumbnailUrl = supabase.storage.from('RznWebAssets').getPublicUrl('rznwth1.png').data.publicUrl;
+
 // Get public URLs for service icons
 const icon1Url = supabase.storage.from('RznWebAssets').getPublicUrl('i4.svg').data.publicUrl;
 const icon2Url = supabase.storage.from('RznWebAssets').getPublicUrl('i5.svg').data.publicUrl;
@@ -59,7 +62,7 @@ function HomePage() {
                 {!isVideoPlaying ? (
                   <div className="relative w-full h-full bg-gray-800 flex items-center justify-center cursor-pointer" onClick={handlePlayVideo}>
                     <img 
-                      src="/image.png" 
+                      src={videoThumbnailUrl} 
                       alt="Video thumbnail" 
                       className="w-full h-full object-cover"
                     />
