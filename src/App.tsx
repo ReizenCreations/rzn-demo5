@@ -115,7 +115,7 @@ function HomePage() {
                 features: ["Conversion Optimization", "Performance Analytics", "Funnel Building"]
               }
             ].map((service, index) => (
-              <div key={index} className="p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 max-w-sm mx-auto" style={{ backgroundColor: '#edfbff' }}>
+              <div key={index} className="p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 max-w-md mx-auto" style={{ backgroundColor: '#edfbff' }}>
                 <div className="text-blue-600 mb-6">
                   <img 
                     src={service.iconUrl} 
