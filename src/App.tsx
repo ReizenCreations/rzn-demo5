@@ -140,16 +140,15 @@ function HomePage() {
       </section>
 
       {/* First Partnership Opportunity */}
-      <section className="py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
+      <section className="py-20 animated-gradient-bg relative overflow-hidden">
         {/* Animated border overlay */}
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-0 left-0 right-0 h-0.5 opacity-80 legendary-shimmer" style={{ background: 'linear-gradient(to right, #f43f5e, #2563eb, #10b981, #efb736, #f43f5e)' }}></div>
           <div className="absolute bottom-0 left-0 right-0 h-0.5 opacity-80 legendary-shimmer" style={{ background: 'linear-gradient(to right, #efb736, #10b981, #2563eb, #f43f5e, #efb736)' }}></div>
         </div>
         
-        {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0 bg-gradient-to-br from-emerald-400/15 via-teal-500/10 to-blue-600/20"></div>
+        {/* Dark overlay to maintain readability */}
+        <div className="absolute inset-0 bg-black/60">
         </div>
         
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative">
