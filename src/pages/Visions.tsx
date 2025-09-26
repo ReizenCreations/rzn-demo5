@@ -61,8 +61,10 @@ function Visions() {
               href="https://forms.gle/7hvhgiXNQhdsU7Gv6" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-white px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors duration-200 inline-block"
+              className="px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-800 transition-colors duration-200 inline-block"
               style={{ color: '#04de7d' }}
+              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#1f1f1f'}
+              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#0a0a0a'}
             >
               ' insert same broken record button '
             </a>
