@@ -2,9 +2,12 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { ArrowLeft } from 'lucide-react';
 
+function Visions() {
   const [scrollOffset, setScrollOffset] = useState(0);
 
   useEffect(() => {
+  }, []);
+
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#0a0a0a' }}>
       {/* Header */}
