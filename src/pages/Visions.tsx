@@ -33,6 +33,9 @@ function Visions() {
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">
               Turning Visions Into Reality
             </h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-blue-500">
+              Turning Visions Into Reality
+            </h1>
             <p className="text-xl leading-relaxed" style={{ color: '#edfbff' }}>
               I write all this copy myself, freestyle. Best I can do to be genuine
             </p>
