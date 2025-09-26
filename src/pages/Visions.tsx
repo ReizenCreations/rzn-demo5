@@ -28,7 +28,7 @@ function Visions() {
               Turning Visions Into Reality
             </h1>
             <p className="text-xl text-gray-700 leading-relaxed">
-              I write all this copy myself, freestyle. Best I can do to be more genuine
+              I write all this copy myself, freestyle. Best I can do to be genuine
             </p>
           </div>
 
