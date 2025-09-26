@@ -53,7 +53,7 @@ function Visions() {
           <div className="bg-gradient-to-br from-blue-600 to-blue-700 text-white p-12 rounded-2xl text-center">
             <h2 className="text-3xl font-bold mb-6"> Ready? </h2>
             <p className="text-xl mb-8 opacity-90">
-              Let's get to work, market dominatio awaits.
+              Let's get to work, the market is moving
             </p>
             <a 
               href="https://forms.gle/7hvhgiXNQhdsU7Gv6" 
@@ -61,7 +61,7 @@ function Visions() {
               rel="noopener noreferrer"
               className="bg-white text-blue-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors duration-200 inline-block"
             >
-              Start Your Journey
+              ' insert same broken record button '
             </a>
           </div>
         </div>
