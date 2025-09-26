@@ -28,8 +28,7 @@ function Visions() {
               Turning Visions Into Reality
             </h1>
             <p className="text-xl text-gray-700 leading-relaxed">
-              At Reizen Creations, we believe every great success story starts with a vision. 
-              Our mission is to transform your boldest ideas into market-dominating realities.
+              I write all this copy myself, freestyle. Best I can do to be more genuine
             </p>
           </div>
 
@@ -45,8 +44,8 @@ function Visions() {
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Your Vision</h2>
               <p className="text-gray-700 leading-relaxed">
-                We understand that your vision is unique. Our role is to provide the strategic 
-                framework, creative execution, and growth systems to make it a reality.
+                I understand that my vision is unique. My role is to provide the strategic 
+                framework, creative execution and growth systems to make it a reality.
               </p>
             </div>
           </div>
