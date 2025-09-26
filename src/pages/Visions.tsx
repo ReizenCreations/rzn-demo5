@@ -50,11 +50,9 @@ function Visions() {
               <span 
                 style={{ 
                   background: `linear-gradient(90deg, #edfbff ${Math.max(0, 20 + scrollOffset)}%, #60a5fa ${Math.max(10, 30 + scrollOffset)}%, #60a5fa ${Math.min(90, 60 + scrollOffset)}%, #edfbff ${Math.min(100, 80 + scrollOffset)}%)`,
-                  WebkitBackgroundClip: 'text', 
-                  WebkitTextFillColor: 'transparent', 
+                  WebkitBackgroundClip: 'text',
                   backgroundClip: 'text',
-                  filter: 'blur(0.3px)',
-                  transition: 'filter 0.3s ease'
+                  color: 'transparent'
                 }}
               >
                 Turning Visions Into Reality
