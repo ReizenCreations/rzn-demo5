@@ -7,6 +7,7 @@ function Visions() {
 
   useEffect(() => {
     const handleScroll = () => {
+     console.log('Scroll detected:', window.scrollY);
       setScrollY(window.scrollY);
     };
 
@@ -16,6 +17,7 @@ function Visions() {
 
   // Calculate gradient position based on scroll (moves slower for subtle effect)
   const gradientOffset = scrollY * 0.1;
+ console.log('Current scrollY:', scrollY, 'gradientOffset:', gradientOffset);
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#0a0a0a' }}>
