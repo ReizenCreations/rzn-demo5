@@ -61,7 +61,8 @@ function Visions() {
               href="https://forms.gle/7hvhgiXNQhdsU7Gv6" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-white text-blue-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors duration-200 inline-block"
+              className="bg-white px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors duration-200 inline-block"
+              style={{ color: '#04de7d' }}
             >
               ' insert same broken record button '
             </a>
