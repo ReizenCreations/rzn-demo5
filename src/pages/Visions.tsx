@@ -61,8 +61,8 @@ function Visions() {
               href="https://forms.gle/7hvhgiXNQhdsU7Gv6" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-800 transition-colors duration-200 inline-block"
-              style={{ color: '#04de7d' }}
+              className="px-8 py-4 rounded-full font-bold text-lg transition-colors duration-200 inline-block"
+              style={{ color: '#04de7d', backgroundColor: '#0a0a0a' }}
               onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#1f1f1f'}
               onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#0a0a0a'}
             >
