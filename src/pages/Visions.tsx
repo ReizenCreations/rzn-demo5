@@ -1,13 +1,7 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
 import { ArrowLeft } from 'lucide-react';
 
 function Visions() {
-  const [scrollOffset, setScrollOffset] = useState(0);
-
-  useEffect(() => {
-  }, []);
-
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#0a0a0a' }}>
       {/* Header */}
@@ -21,7 +15,7 @@ function Visions() {
               <ArrowLeft className="w-5 h-5" />
               <span>Back to Home</span>
             </a>
-            <h1 className="text-2xl font-bold" style={{ color: '#edfbff' }}>Reizen</h1>
+            <h1 className="text-2xl font-bold" style={{ color: '#edfbff' }}>Our Visions</h1>
           </div>
         </div>
       </header>
@@ -31,7 +25,9 @@ function Visions() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">
-              Turning Visions Into Reality
+              <span style={{ background: 'linear-gradient(135deg, #edfbff 0%, #edfbff 30%, #60a5fa 60%, #edfbff 90%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>
+                Turning Visions Into Reality
+              </span>
             </h1>
             <p className="text-xl leading-relaxed" style={{ color: '#edfbff' }}>
               I write all this copy myself, freestyle. Best I can do to be genuine
@@ -72,7 +68,6 @@ function Visions() {
           </div>
         </div>
       </main>
-
     </div>
   );
 }
