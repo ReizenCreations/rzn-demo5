@@ -25,7 +25,7 @@ function Visions() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">
-              <span style={{ background: 'linear-gradient(135deg, #edfbff 0%, #edfbff 40%, #2563eb 70%, #edfbff 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>
+              <span style={{ background: 'linear-gradient(135deg, #edfbff 0%, #edfbff 30%, #60a5fa 60%, #edfbff 90%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>
                 Turning Visions Into Reality
               </span>
             </h1>
