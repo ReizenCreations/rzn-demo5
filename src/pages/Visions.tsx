@@ -1,7 +1,22 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 import { ArrowLeft } from 'lucide-react';
 
 function Visions() {
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  // Calculate gradient position based on scroll (moves slower for subtle effect)
+  const gradientOffset = scrollY * 0.1;
+
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#0a0a0a' }}>
       {/* Header */}
@@ -25,7 +40,16 @@ function Visions() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">
-              <span style={{ background: 'linear-gradient(135deg, #edfbff 0%, #edfbff 30%, #60a5fa 60%, #edfbff 90%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>
+              <span 
+                style={{ 
+                  background: `linear-gradient(135deg, #edfbff ${0 + gradientOffset}%, #edfbff ${30 + gradientOffset}%, #60a5fa ${60 + gradientOffset}%, #edfbff ${90 + gradientOffset}%)`,
+                  WebkitBackgroundClip: 'text', 
+                  WebkitTextFillColor: 'transparent', 
+                  backgroundClip: 'text',
+                  filter: 'blur(0.3px)',
+                  transition: 'filter 0.3s ease'
+                }}
+              >
                 Turning Visions Into Reality
               </span>
             </h1>
