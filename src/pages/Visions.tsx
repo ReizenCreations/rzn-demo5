@@ -28,6 +28,7 @@ function Visions() {
               Turning Visions Into Reality
             </h1>
             <p className="text-xl text-gray-700 leading-relaxed">
+            </p>
             <p className="text-xl leading-relaxed" style={{ color: '#04de7d' }}>
               I write all this copy myself, freestyle. Best I can do to be genuine
             </p>
