@@ -30,7 +30,7 @@ function Visions() {
               <ArrowLeft className="w-5 h-5" />
               <span>Back to Home</span>
             </a>
-            <h1 className="text-2xl font-bold" style={{ color: '#edfbff' }}>Our Visions</h1>
+            <h1 className="text-2xl font-bold" style={{ color: '#edfbff' }}>Reizen</h1>
           </div>
         </div>
       </header>
