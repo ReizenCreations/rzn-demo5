@@ -2,28 +2,9 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { ArrowLeft } from 'lucide-react';
 
-function Visions() {
   const [scrollOffset, setScrollOffset] = useState(0);
 
   useEffect(() => {
-    const handleWheel = (e: WheelEvent) => {
-      e.preventDefault(); // Prevent actual page scrolling
-      console.log('Wheel detected:', e.deltaY);
-      setScrollOffset(prev => {
-        // Normalize the scroll input and accumulate it
-        const newOffset = prev + (e.deltaY * 0.5); // Adjust sensitivity
-        // Keep it within reasonable bounds (0 to 100)
-        return Math.max(0, Math.min(100, newOffset));
-      });
-    };
-
-    window.addEventListener('wheel', handleWheel, { passive: false });
-    return () => window.removeEventListener('wheel', handleWheel);
-  }, []);
-
-  // Use scroll offset directly as gradient position
-  console.log('Current scrollOffset:', scrollOffset);
-
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#0a0a0a' }}>
       {/* Header */}
@@ -47,16 +28,7 @@ function Visions() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">
-              <span 
-                style={{ 
-                  background: `linear-gradient(90deg, #edfbff ${Math.max(0, 20 + scrollOffset)}%, #60a5fa ${Math.max(10, 30 + scrollOffset)}%, #60a5fa ${Math.min(90, 60 + scrollOffset)}%, #edfbff ${Math.min(100, 80 + scrollOffset)}%)`,
-                  WebkitBackgroundClip: 'text',
-                  backgroundClip: 'text',
-                  color: 'transparent'
-                }}
-              >
-                Turning Visions Into Reality
-              </span>
+              Turning Visions Into Reality
             </h1>
             <p className="text-xl leading-relaxed" style={{ color: '#edfbff' }}>
               I write all this copy myself, freestyle. Best I can do to be genuine
