@@ -36,7 +36,7 @@ function Visions() {
 
           <div className="grid md:grid-cols-2 gap-12 mb-16">
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">My Vision</h2>
               <p className="text-gray-700 leading-relaxed">
                 To be the catalyst that transforms ambitious coaches and entrepreneurs 
                 from dreamers into industry leaders, creating lasting impact in their markets.
