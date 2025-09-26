@@ -1,13 +1,7 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
 import { ArrowLeft } from 'lucide-react';
 
 function Visions() {
-  const [scrollOffset, setScrollOffset] = useState(0);
-
-  useEffect(() => {
-  }, []);
-
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#0a0a0a' }}>
       {/* Header */}
@@ -16,12 +10,12 @@ function Visions() {
           <div className="flex justify-between items-center">
             <a 
               href="/" 
-              className="hover:text-blue-400 transition-colors duration-200 flex items-center space-x-2" style={{ color: '#edfbff' }}
+              className="text-white hover:text-blue-400 transition-colors duration-200 flex items-center space-x-2"
             >
               <ArrowLeft className="w-5 h-5" />
               <span>Back to Home</span>
             </a>
-            <h1 className="text-2xl font-bold" style={{ color: '#edfbff' }}>Reizen</h1>
+            <h1 className="text-2xl font-bold text-white">Our Visions</h1>
           </div>
         </div>
       </header>
@@ -30,26 +24,26 @@ function Visions() {
       <main className="container mx-auto px-6 py-20">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
               Turning Visions Into Reality
             </h1>
-            <p className="text-xl leading-relaxed" style={{ color: '#edfbff' }}>
+            <p className="text-xl text-gray-700 leading-relaxed">
               I write all this copy myself, freestyle. Best I can do to be genuine
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 mb-16">
-            <div className="p-8 rounded-2xl shadow-lg" style={{ backgroundColor: '#edfbff' }}>
-              <h2 className="text-2xl font-bold mb-4" style={{ color: '#0a0a0a' }}>Our Vision</h2>
-              <p className="leading-relaxed" style={{ color: '#0a0a0a' }}>
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h2>
+              <p className="text-gray-700 leading-relaxed">
                 To be the catalyst that transforms ambitious coaches and entrepreneurs 
                 from dreamers into industry leaders, creating lasting impact in their markets.
               </p>
             </div>
             
-            <div className="p-8 rounded-2xl shadow-lg" style={{ backgroundColor: '#edfbff' }}>
-              <h2 className="text-2xl font-bold mb-4" style={{ color: '#0a0a0a' }}>Your Vision</h2>
-              <p className="leading-relaxed" style={{ color: '#0a0a0a' }}>
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">Your Vision</h2>
+              <p className="text-gray-700 leading-relaxed">
                 My vision is unique. My role is to provide the strategic 
                 framework & creative execution to make it a reality for You. 
               </p>
@@ -57,22 +51,21 @@ function Visions() {
           </div>
 
           <div className="bg-gradient-to-br from-blue-600 to-blue-700 text-white p-12 rounded-2xl text-center">
-            <h2 className="text-3xl font-bold mb-6" style={{ color: '#edfbff' }}> Ready? </h2>
-            <p className="text-xl mb-8 opacity-90" style={{ color: '#edfbff' }}>
+            <h2 className="text-3xl font-bold mb-6"> Ready? </h2>
+            <p className="text-xl mb-8 opacity-90">
               Let's get to work, the market is moving
             </p>
             <a 
               href="https://forms.gle/7hvhgiXNQhdsU7Gv6" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="px-8 py-4 rounded-full font-bold text-lg transition-colors duration-200 inline-block" style={{ backgroundColor: '#edfbff', color: '#2563eb' }} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#d1f2ff'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#edfbff'}
+              className="bg-white text-blue-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors duration-200 inline-block"
             >
               ' insert same broken record button '
             </a>
           </div>
         </div>
       </main>
-
     </div>
   );
 }
