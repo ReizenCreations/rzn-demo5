@@ -42,7 +42,7 @@ function Visions() {
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">
               <span 
                 style={{ 
-                  background: `linear-gradient(135deg, #edfbff ${0 + gradientOffset}%, #edfbff ${30 + gradientOffset}%, #60a5fa ${60 + gradientOffset}%, #edfbff ${90 + gradientOffset}%)`,
+                  background: `linear-gradient(90deg, #edfbff ${Math.max(0, 20 - gradientOffset)}%, #60a5fa ${Math.max(10, 40 - gradientOffset)}%, #60a5fa ${Math.min(90, 60 + gradientOffset)}%, #edfbff ${Math.min(100, 80 + gradientOffset)}%)`,
                   WebkitBackgroundClip: 'text', 
                   WebkitTextFillColor: 'transparent', 
                   backgroundClip: 'text',
