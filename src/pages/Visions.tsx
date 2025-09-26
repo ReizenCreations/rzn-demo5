@@ -44,16 +44,16 @@ function Visions() {
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Your Vision</h2>
               <p className="text-gray-700 leading-relaxed">
-                I understand that my vision is unique. My role is to provide the strategic 
-                framework, creative execution and growth systems to make it a reality.
+                My vision is unique. My role is to provide the strategic 
+                framework & creative execution to make it a reality for You. 
               </p>
             </div>
           </div>
 
           <div className="bg-gradient-to-br from-blue-600 to-blue-700 text-white p-12 rounded-2xl text-center">
-            <h2 className="text-3xl font-bold mb-6">Ready to Bring Your Vision to Life?</h2>
+            <h2 className="text-3xl font-bold mb-6"> Ready? </h2>
             <p className="text-xl mb-8 opacity-90">
-              Let's work together to turn your vision into market domination.
+              Let's get to work, market dominatio awaits.
             </p>
             <a 
               href="https://forms.gle/7hvhgiXNQhdsU7Gv6" 
