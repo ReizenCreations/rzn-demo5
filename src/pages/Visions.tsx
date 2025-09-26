@@ -3,9 +3,9 @@ import { ArrowLeft } from 'lucide-react';
 
 function Visions() {
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#edfbff' }}>
+    <div className="min-h-screen" style={{ backgroundColor: '#0a0a0a' }}>
       {/* Header */}
-      <header className="w-full bg-gray-950 border-b border-gray-950">
+      <header className="w-full border-b" style={{ backgroundColor: '#0a0a0a', borderColor: '#0a0a0a' }}>
         <div className="container mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <a 
