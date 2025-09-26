@@ -3,21 +3,21 @@ import { useState, useEffect } from 'react';
 import { ArrowLeft } from 'lucide-react';
 
 function Visions() {
-  const [scrollY, setScrollY] = useState(0);
+  const [mouseX, setMouseX] = useState(0);
 
   useEffect(() => {
-    const handleScroll = () => {
-     console.log('Scroll detected:', window.scrollY);
-      setScrollY(window.scrollY);
+    const handleMouseMove = (e: MouseEvent) => {
+      console.log('Mouse move detected:', e.clientX);
+      setMouseX(e.clientX);
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener('mousemove', handleMouseMove);
+    return () => window.removeEventListener('mousemove', handleMouseMove);
   }, []);
 
-  // Calculate gradient position based on scroll (moves slower for subtle effect)
-  const gradientOffset = scrollY * 0.1;
- console.log('Current scrollY:', scrollY, 'gradientOffset:', gradientOffset);
+  // Calculate gradient position based on mouse X position (normalized to viewport width)
+  const gradientOffset = (mouseX / window.innerWidth) * 100;
+  console.log('Current mouseX:', mouseX, 'gradientOffset:', gradientOffset);
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#0a0a0a' }}>
