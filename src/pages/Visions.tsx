@@ -92,6 +92,43 @@ function Visions() {
           </div>
         </div>
       </main>
+
+      {/* Temporary content to make page scrollable for testing gradient effect */}
+      <div className="container mx-auto px-6 py-20">
+        <div className="max-w-4xl mx-auto space-y-8">
+          <div className="p-8 rounded-2xl" style={{ backgroundColor: '#1a1a1a' }}>
+            <h3 className="text-2xl font-bold mb-4" style={{ color: '#edfbff' }}>Scroll Test Section 1</h3>
+            <p className="leading-relaxed" style={{ color: '#edfbff', opacity: 0.8 }}>
+              This content is here to make the page tall enough to scroll. 
+              As you scroll up and down, you should see the gradient in the main title moving horizontally.
+            </p>
+          </div>
+          
+          <div className="p-8 rounded-2xl" style={{ backgroundColor: '#1a1a1a' }}>
+            <h3 className="text-2xl font-bold mb-4" style={{ color: '#edfbff' }}>Scroll Test Section 2</h3>
+            <p className="leading-relaxed" style={{ color: '#edfbff', opacity: 0.8 }}>
+              Keep scrolling to see the gradient effect in action. The blue part should move left and right 
+              as you scroll up and down the page.
+            </p>
+          </div>
+          
+          <div className="p-8 rounded-2xl" style={{ backgroundColor: '#1a1a1a' }}>
+            <h3 className="text-2xl font-bold mb-4" style={{ color: '#edfbff' }}>Scroll Test Section 3</h3>
+            <p className="leading-relaxed" style={{ color: '#edfbff', opacity: 0.8 }}>
+              The gradient movement is subtle but should be visible as you scroll. 
+              This is temporary content just for testing the scroll effect.
+            </p>
+          </div>
+          
+          <div className="p-8 rounded-2xl" style={{ backgroundColor: '#1a1a1a' }}>
+            <h3 className="text-2xl font-bold mb-4" style={{ color: '#edfbff' }}>Scroll Test Section 4</h3>
+            <p className="leading-relaxed" style={{ color: '#edfbff', opacity: 0.8 }}>
+              More content to ensure we have enough height for scrolling. 
+              The gradient should respond to your scroll position in real-time.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
