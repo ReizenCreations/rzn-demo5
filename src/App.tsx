@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { createClient } from '@supabase/supabase-js';
 import { Play, Star, TrendingUp, Users, Zap, ArrowRight, CheckCircle, Award, Target, Rocket, Wrench } from 'lucide-react';
-import Visions from './pages/Visions';
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
 const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
@@ -316,7 +315,6 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/visions" element={<Visions />} />
         </Routes>
       </Router>
     </div>
