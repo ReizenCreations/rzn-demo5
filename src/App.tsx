@@ -157,17 +157,11 @@ function HomePage() {
         
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           {/* Header */}
-          <div className="text-center mb-16">
+          <div className="text-center mb-8">
             <div className="inline-flex items-center border rounded-full px-6 py-2 mb-6" style={{ backgroundColor: 'rgba(237, 251, 255, 0.1)', borderColor: 'rgba(237, 251, 255, 0.2)' }}>
               <div className="w-2 h-2 bg-emerald-400 rounded-full mr-3 animate-pulse"></div>
               <span className="font-semibold text-sm uppercase tracking-wide" style={{ color: '#edfbff' }}>Partnership Opportunity</span>
             </div>
-            <h3 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-              I Don't Have Testimonials Yet...
-            </h3>
-            <p className="text-xl text-gray-300 font-medium">
-              Here's why that might be a <span className="text-emerald-400 font-bold">good thing</span>
-            </p>
           </div>
 
           {/* Main Content */}
@@ -270,7 +264,7 @@ function HomePage() {
           <div className="text-center mt-16">
             <h3 className="text-3xl font-bold mb-30">Ready to Write The Success Stories?</h3>
             <p className="text-xl mb-32 max-w-2xl mx-auto" style={{ color: '#edfbff', opacity: 0.8 }}>
-              Our competition, mine and yours—they're not slowing down
+             Let's get to work
             </p>
             <a 
               href="https://forms.gle/7hvhgiXNQhdsU7Gv6" 
@@ -298,10 +292,10 @@ function HomePage() {
             className="w-15 h-auto mx-auto mb-6 opacity-80"
           />
           <p className="mb-4" style={{ color: '#edfbff', opacity: 0.6 }}>
-            © 2025 Reizen Creations. All rights reserved.
+            © 2025 Reizen Creations
           </p>
           <p style={{ color: '#edfbff', opacity: 0.4 }}>
-            Turning <a href="/visions" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-400 transition-colors duration-200">visions</a> into market domination, one campaign at a time.
+            
           </p>
         </div>
       </footer>
