@@ -108,15 +108,15 @@ function HomePage() {
               },
               {
                 iconUrl: icon2Url,
-                title: "Short-Form Pipeline",
-                description: "I will build ",
+                title: "Short-Form Content",
+                description: "I will build you a pipeline that converts attention and feeds your funnel on auto-pilot. At just $29 per video + 5-10% on sales we generate.",
                 features: ["70 videos per month", "New viewers every day"]
               },
               {
                 iconUrl: icon3Url,
                 title: "Growth Hacking Systems",
-                description: "Implement growth systems that scale automatically, driving consistent revenue growth month over month.",
-                features: ["Conversion Optimization", "Performance Analytics", "Funnel Building"]
+                description: "Behind the content, we build Ai-powered systems that capture leads, analyze performance and convert new traffic.",
+                features: ["Powerful Automation", "Funnel Build & Optimization"]
               }
             ].map((service, index) => (
               <div key={index} className="p-4 md:p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 max-w-xs md:max-w-md mx-auto" style={{ backgroundColor: '#edfbff' }}>
