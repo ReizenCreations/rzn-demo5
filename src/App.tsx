@@ -48,7 +48,7 @@ function HomePage() {
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-2xl md:text-5xl font-bold mb-16 leading-tight">
-              Everyone is selling, few are converting... Here's how Reizen helps coaches fix that 
+              Everyone is selling, few are converting... Here's how Reizen helps brands fix that 
               <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent"> and scale fast</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed">
@@ -199,7 +199,7 @@ function HomePage() {
                   </div>
                   <h5 className="text-lg font-bold text-white mb-3">Before the Crowd</h5>
                   <p className="text-gray-300 text-sm leading-relaxed">
-                    And this isn't about collecting clients - it's about <span className="text-red-400 font-semibold">building a few strong success stories</span> from the ground up.
+                    And this isn't about collecting clients - it's about building a few <span className="text-red-400 font-semibold">strong success stories</span> from the ground up.
                   </p>
                 </div>
               </div>
@@ -210,10 +210,10 @@ function HomePage() {
           <div className="text-center">
             <div className="bg-gradient-to-r from-emerald-600 to-emerald-500 rounded-2xl p-8 md:p-12 shadow-2xl">
               <h4 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                Get in contact with me...
+                Are you ready to win...
               </h4>
               <p className="text-xl text-emerald-100 mb-8">
-                if you are ready to win, <span className="font-bold">together</span>
+                Fill out the form <span className="font-bold">or contact me directly</span>
               </p>
               <a 
                 href="https://forms.gle/7hvhgiXNQhdsU7Gv6" 
@@ -237,20 +237,20 @@ function HomePage() {
         <div className="container mx-auto px-6 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Numbers Don't Lie
+              The Creator Economy is Booming
             </h2>
             <p className="text-xl max-w-2xl mx-auto" style={{ color: '#edfbff', opacity: 0.8 }}>
-              Wait... something's missing
+              and it's not slowing down
             </p>
           </div>
 
           {/* Stats */}
           <div className="grid md:grid-cols-4 gap-8 mb-16 max-w-5xl mx-auto">
             {[
-              { number: "0%", label: "Average Revenue Growth" },
-              { number: "0%", label: "Client Retention Rate" },
-              { number: "0+", label: "Customers Acquired" },
-              { number: "0", label: "Successful Campaigns" }
+              { number: "96%", label: "Never hit Six-Figures" },
+              { number: "50M", label: "Professional Creators" },
+              { number: "$250B", label: "Market Size" },
+              { number: "$480B", label: "By 2027" }
             ].map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-4xl md:text-5xl font-bold mb-2" style={{ color: '#2563eb' }}>{stat.number}</div>
