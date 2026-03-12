@@ -94,7 +94,7 @@ function HomePage() {
               Services That Scale
             </h2>
             <p className="text-xl max-w-2xl mx-auto" style={{ color: '#edfbff' }}>
-              Comprehensive marketing solutions designed for explosive growth
+              designed for explosive growth
             </p>
           </div>
 
@@ -102,15 +102,15 @@ function HomePage() {
             {[
               {
                 iconUrl: icon1Url,
-                title: "Strategic Brand Positioning",
-                description: "Position your brand as the undisputed leader in your market with data-driven positioning strategies.",
-                features: ["Competitive Analysis", "Brand Architecture"]
+                title: "Market Authority",
+                description: "When people think about your niche, you should come to mind immediately. Soon that will be your reality.",
+                features: ["Competitive Analysis", "Brand Positioning"]
               },
               {
                 iconUrl: icon2Url,
-                title: "Digital Marketing Acceleration",
-                description: "Accelerate your digital presence with cutting-edge campaigns that convert prospects into loyal customers.",
-                features: ["Social Media Strategy", "SEO Optimization"]
+                title: "Short-Form Pipeline",
+                description: "I will build ",
+                features: ["70 videos per month", "New viewers every day"]
               },
               {
                 iconUrl: icon3Url,
@@ -169,7 +169,7 @@ function HomePage() {
             <div className="space-y-8 text-center">
               <div className="max-w-3xl mx-auto">
                 <p className="text-lg md:text-xl text-gray-200 leading-relaxed mb-8">
-                  Everyone wants a story <em>after</em> it's been written—I'm offering you <span className="text-emerald-400 font-bold">page one</span>
+                  Everyone wants a story <em>after</em> it's been written, I'm offering you <span className="text-emerald-400 font-bold">the first chapter</span>
                 </p>
               </div>
 
@@ -189,7 +189,7 @@ function HomePage() {
                   </div>
                   <h5 className="text-lg font-bold text-white mb-3">Revenue Solutions</h5>
                   <p className="text-gray-300 text-sm leading-relaxed">
-                    Our goal is to create explosive growth for your personal brand <span className="text-emerald-400 font-semibold">by any means</span> drowning in leads? I'll close them personally if I have to, we win together.
+                    Our job is to create explosive growth for your personal brand <span className="text-emerald-400 font-semibold">by any means</span> drowning in leads? I'll close them personally if I have to, we win together.
                   </p>
                 </div>
                 
@@ -197,9 +197,9 @@ function HomePage() {
                   <div className="text-emerald-400 mb-4">
                     <Star className="h-8 w-8 mx-auto" />
                   </div>
-                  <h5 className="text-lg font-bold text-white mb-3">Results-Driven Focus</h5>
+                  <h5 className="text-lg font-bold text-white mb-3">Before the Crowd</h5>
                   <p className="text-gray-300 text-sm leading-relaxed">
-                    You won't be <span className="text-red-400 font-semibold">client #473</span> lost in the shuffle—you get personalized content designed for growth.
+                    And this isn't about collecting clients - it's about <span className="text-red-400 font-semibold">building a few strong success stories</span> from the ground up.
                   </p>
                 </div>
               </div>
