@@ -178,7 +178,7 @@ function HomePage() {
                   Do you want to be the reason the line outside gets longer
                 </h4>
                 <p className="text-lg text-emerald-200">
-                  or the coach standing in line?
+                  or the one standing in line?
                 </p>
               </div>
 
@@ -187,9 +187,9 @@ function HomePage() {
                   <div className="text-emerald-400 mb-4">
                     <TrendingUp className="h-8 w-8 mx-auto" />
                   </div>
-                  <h5 className="text-lg font-bold text-white mb-3">Trusted Partnership</h5>
+                  <h5 className="text-lg font-bold text-white mb-3">Revenue Solutions</h5>
                   <p className="text-gray-300 text-sm leading-relaxed">
-                    Imagine placing your workload on a trusted partner where all they ask for in return is a piece of the pie <span className="text-emerald-400 font-semibold">when the work is done</span>
+                    Our goal is to create explosive growth for your personal brand <span className="text-emerald-400 font-semibold">by any means</span> drowning in leads? I'll close them personally if I have to, we win together.
                   </p>
                 </div>
                 
@@ -199,7 +199,7 @@ function HomePage() {
                   </div>
                   <h5 className="text-lg font-bold text-white mb-3">Results-Driven Focus</h5>
                   <p className="text-gray-300 text-sm leading-relaxed">
-                    You won't be <span className="text-red-400 font-semibold">client #47</span> lost in the shuffle—I will let the results do the talking, once I've made them happen
+                    You won't be <span className="text-red-400 font-semibold">client #473</span> lost in the shuffle—you get personalized content designed for growth.
                   </p>
                 </div>
               </div>
