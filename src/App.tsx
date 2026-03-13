@@ -189,7 +189,7 @@ function HomePage() {
                   </div>
                   <h5 className="text-lg font-bold text-white mb-3">Revenue Solutions</h5>
                   <p className="text-gray-300 text-sm leading-relaxed">
-                    Our job is to create explosive growth for your personal brand <span className="text-emerald-400 font-semibold">by any means</span> drowning in leads? I'll close them personally if I have to, we win together.
+                    Our job is to create explosive growth for your personal brand <span className="text-emerald-400 font-semibold">by any means.</span> Drowning in leads? I'll close them personally if I have to, we win together.
                   </p>
                 </div>
                 
@@ -210,7 +210,7 @@ function HomePage() {
           <div className="text-center">
             <div className="bg-gradient-to-r from-emerald-600 to-emerald-500 rounded-2xl p-8 md:p-12 shadow-2xl">
               <h4 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                Are you ready to win...
+                Are you ready to win?..
               </h4>
               <p className="text-xl text-emerald-100 mb-8">
                 Fill out the form <span className="font-bold">or contact me directly</span>
@@ -247,7 +247,7 @@ function HomePage() {
           {/* Stats */}
           <div className="grid md:grid-cols-4 gap-8 mb-16 max-w-5xl mx-auto">
             {[
-              { number: "96%", label: "Never hit Six-Figures" },
+              { number: "96%", label: "Never hit six-figures" },
               { number: "50M", label: "Professional Creators" },
               { number: "$250B", label: "Market Size" },
               { number: "$480B", label: "By 2027" }
