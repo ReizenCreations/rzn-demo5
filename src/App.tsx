@@ -91,7 +91,7 @@ function HomePage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Services That Scale
+              Supply Chain Solutions
             </h2>
             <p className="text-xl max-w-2xl mx-auto" style={{ color: '#edfbff' }}>
               designed for explosive growth
@@ -103,19 +103,19 @@ function HomePage() {
               {
                 iconUrl: icon1Url,
                 title: "Market Authority",
-                description: "When people think about your niche, you should come to mind immediately. Soon that will be your reality.",
+                description: "",
                 features: ["Competitive Analysis", "Brand Positioning"]
               },
               {
                 iconUrl: icon2Url,
                 title: "Short-Form Content",
-                description: "I will build you a pipeline that converts attention and feeds your funnel on auto-pilot. At just $29 per video + 5-10% on sales we generate.",
-                features: ["70 videos per month", "New viewers every day"]
+                description: "",
+                features: ["Personal Branding", "New viewers every day"]
               },
               {
                 iconUrl: icon3Url,
                 title: "Growth Hacking Systems",
-                description: "Behind the content, we build Ai-powered systems that capture leads, analyze performance and convert new traffic.",
+                description: "",
                 features: ["Powerful Automation", "Funnel Build & Optimization"]
               }
             ].map((service, index) => (
