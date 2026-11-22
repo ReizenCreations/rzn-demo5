@@ -91,7 +91,7 @@ function HomePage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Supply Chain Solutions
+              End-to-End Solutions
             </h2>
             <p className="text-xl max-w-2xl mx-auto" style={{ color: '#edfbff' }}>
               designed for explosive growth
@@ -199,7 +199,7 @@ function HomePage() {
                   </div>
                   <h5 className="text-lg font-bold text-white mb-3">Before the Crowd</h5>
                   <p className="text-gray-300 text-sm leading-relaxed">
-                    And this isn't about collecting clients - it's about building a few <span className="text-red-400 font-semibold">strong success stories</span> from the ground up.
+                    This is about building <span className="text-red-400 font-semibold">strong success stories</span> from the ground up.
                   </p>
                 </div>
               </div>
@@ -250,7 +250,7 @@ function HomePage() {
               { number: "96%", label: "Never hit six-figures" },
               { number: "67M+", label: "Professional Creators" },
               { number: "$390B+", label: "Market Size" },
-              { number: "85%", label: "Convinced to Buy Through Video" }
+              { number: "85%", label: "Buy Through Video" }
             ].map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-4xl md:text-5xl font-bold mb-2" style={{ color: '#2563eb' }}>{stat.number}</div>
