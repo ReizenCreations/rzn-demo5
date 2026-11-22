@@ -248,9 +248,9 @@ function HomePage() {
           <div className="grid md:grid-cols-4 gap-8 mb-16 max-w-5xl mx-auto">
             {[
               { number: "96%", label: "Never hit six-figures" },
-              { number: "50M", label: "Professional Creators" },
-              { number: "$250B", label: "Market Size" },
-              { number: "$480B", label: "By 2027" }
+              { number: "67M+", label: "Professional Creators" },
+              { number: "$390B+", label: "Market Size" },
+              { number: "85%", label: "Convinced to Buy Through Video" }
             ].map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-4xl md:text-5xl font-bold mb-2" style={{ color: '#2563eb' }}>{stat.number}</div>
@@ -292,7 +292,7 @@ function HomePage() {
             className="w-15 h-auto mx-auto mb-6 opacity-80"
           />
           <p className="mb-4" style={{ color: '#edfbff', opacity: 0.6 }}>
-            © 2025 Reizen Creations
+            © 2026 Reizen Creations
           </p>
           <p style={{ color: '#edfbff', opacity: 0.4 }}>
             
