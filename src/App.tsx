@@ -119,20 +119,22 @@ function HomePage() {
                 features: ["Powerful Automation", "Funnel Build & Optimization"]
               }
             ].map((service, index) => (
-              <div key={index} className="p-4 md:p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 max-w-xs md:max-w-md mx-auto" style={{ backgroundColor: '#edfbff' }}>
+              <div
+                key={index}
+                className="w-full h-full flex flex-col p-6 md:p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
+                style={{ backgroundColor: '#edfbff' }}
+              >
                 <div className="text-blue-600 mb-6">
-                  <img 
-                    src={service.iconUrl} 
-                    alt={`${service.title} icon`}
-                    className="w-16 h-auto"
-                  />
+                  <img src={service.iconUrl} alt={`${service.title} icon`} className="w-16 h-auto" />
                 </div>
                 <h3 className="text-lg md:text-2xl font-bold text-gray-900 mb-4">{service.title}</h3>
-                <p className="text-gray-600 mb-6">{service.description}</p>
-                <ul className="space-y-2">
+                {service.description && (
+                  <p className="text-gray-600 mb-6">{service.description}</p>
+                )}
+                <ul className="space-y-2 mt-auto">
                   {service.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center text-gray-700">
-                      <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
+                      <CheckCircle className="w-4 h-4 text-green-500 mr-2 shrink-0" />
                       {feature}
                     </li>
                   ))}
