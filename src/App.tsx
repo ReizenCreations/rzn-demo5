@@ -37,7 +37,7 @@ function HomePage() {
             <img 
               src={headerLogoUrl} 
               alt="Reizen Creations Logo" 
-             className="w-48 md:w-80 h-auto"
+             className="w-56 md:w-96 h-auto"
             />
           </div>
         </div>
@@ -291,7 +291,7 @@ function HomePage() {
           <img 
             src={footerLogoUrl} 
             alt="Reizen Creations Logo" 
-            className="w-15 h-auto mx-auto mb-6 opacity-80"
+            className="w-56 md:w-96 h-auto mx-auto mb-6"
           />
           <p className="mb-4" style={{ color: '#edfbff', opacity: 0.6 }}>
             © 2026 Reizen Creations
