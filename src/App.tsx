@@ -201,7 +201,7 @@ function HomePage() {
                   </div>
                   <h5 className="text-lg font-bold text-white mb-3">Ground-Up Brand Conviction</h5>
                   <p className="text-gray-300 text-sm leading-relaxed">
-                    This is how you earn <span className="text-red-400 font-semibold">deep buyer trust</span> with strong personal branding video that speaks for you 24/7
+                    This is how you earn <span className="text-red-400 font-semibold">deep buyer trust</span> with strong personal branding and video that speaks for you 24/7
                   </p>
                 </div>
               </div>
