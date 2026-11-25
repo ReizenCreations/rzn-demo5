@@ -44,7 +44,7 @@ function HomePage() {
       </header>
 
       {/* Hero Video Section */}
-      <section className="pt-12 pb-20 bg-gray-950 text-white relative overflow-hidden">
+      <section className="pt-6 pb-20 bg-gray-950 text-white relative overflow-hidden">
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-2xl md:text-5xl font-bold mb-16 leading-tight">
@@ -177,10 +177,10 @@ function HomePage() {
 
               <div className="bg-emerald-500/10 border border-emerald-500/20 rounded-xl p-6 md:p-8">
                 <h4 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                  Do you want to be the reason the line outside gets longer
+                  Do you want to control the buyer journey
                 </h4>
                 <p className="text-lg text-emerald-200">
-                  or the one standing in line?
+                  or leave the growth up to luck?
                 </p>
               </div>
 
@@ -191,7 +191,7 @@ function HomePage() {
                   </div>
                   <h5 className="text-lg font-bold text-white mb-3">Revenue Solutions</h5>
                   <p className="text-gray-300 text-sm leading-relaxed">
-                    Our job is to create explosive growth for your personal brand <span className="text-emerald-400 font-semibold">by any means.</span> Drowning in leads? I'll close them personally if I have to, we win together.
+                    We direct top-of-funnel attention into structured conversion systems designed to <span className="text-emerald-400 font-semibold">convert on auto-pilot</span>
                   </p>
                 </div>
                 
@@ -211,12 +211,9 @@ function HomePage() {
           {/* CTA Section */}
           <div className="text-center">
             <div className="bg-gradient-to-r from-emerald-600 to-emerald-500 rounded-2xl p-8 md:p-12 shadow-2xl">
-              <h4 className="text-3xl md:text-4xl font-bold text-white mb-6">
+              <h4 className="text-3xl md:text-4xl font-bold text-white mb-4">
                 Are you ready to win?..
               </h4>
-              <p className="text-xl text-emerald-100 mb-8">
-                Fill out the form <span className="font-bold">or contact me directly</span>
-              </p>
               <a 
                 href="https://forms.gle/7hvhgiXNQhdsU7Gv6" 
                 target="_blank" 
