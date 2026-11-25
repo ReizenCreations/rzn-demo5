@@ -62,16 +62,14 @@ function HomePage() {
               </p>
             </div>
             <div className="relative max-w-3xl mx-auto mb-12">
-              <div className="aspect-video rounded-2xl shadow-2xl overflow-hidden">
-                <div className="relative w-full h-full bg-gray-800 flex items-center justify-center">
-                  <img 
-                    src={videoThumbnailUrl} 
-                    alt="Video thumbnail" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-            </div>
+  <a href="https://www.youtube.com/watch?v=9sY6RnjguTA" target="_blank" rel="noopener noreferrer" className="block">
+    <div className="aspect-video rounded-2xl shadow-2xl overflow-hidden">
+      <div className="relative w-full h-full bg-gray-800 flex items-center justify-center">
+        <img src={videoThumbnailUrl} alt="Video thumbnail" className="w-full h-full object-cover" />
+      </div>
+    </div>
+  </a>
+</div>
 
             <a 
               href="https://forms.gle/7hvhgiXNQhdsU7Gv6" 
