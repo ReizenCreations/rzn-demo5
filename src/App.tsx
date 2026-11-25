@@ -10,11 +10,11 @@ const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 // Get public URLs for your logo images
-const headerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('R.22.svg').data.publicUrl;
-const footerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('R.20.png').data.publicUrl;
+const headerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('rzn_head_logo01.svg').data.publicUrl;
+const footerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('rzn_foot_logo01.svg').data.publicUrl;
 
 // Get public URL for video thumbnail
-const videoThumbnailUrl = supabase.storage.from('RznWebAssets').getPublicUrl('rznwth1.png').data.publicUrl;
+const videoThumbnailUrl = supabase.storage.from('RznWebAssets').getPublicUrl('VSL_Holder.png').data.publicUrl;
 
 // Get public URLs for service icons
 const icon1Url = supabase.storage.from('RznWebAssets').getPublicUrl('i4.svg').data.publicUrl;
@@ -58,7 +58,7 @@ function HomePage() {
             {/* Video Player */}
             <div className="text-center mb-4">
               <p className="font-mono text-sm" style={{ color: '#04de7d' }}>
-                video under construction
+                VSL under construction
               </p>
             </div>
             <div className="relative max-w-3xl mx-auto mb-12">
