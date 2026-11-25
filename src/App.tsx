@@ -87,7 +87,7 @@ function HomePage() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-gray-950">
+      <section className="py-10 bg-gray-950">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
@@ -199,9 +199,9 @@ function HomePage() {
                   <div className="text-emerald-400 mb-4">
                     <Star className="h-8 w-8 mx-auto" />
                   </div>
-                  <h5 className="text-lg font-bold text-white mb-3">Before the Crowd</h5>
+                  <h5 className="text-lg font-bold text-white mb-3">Ground-Up Brand Conviction</h5>
                   <p className="text-gray-300 text-sm leading-relaxed">
-                    This is about building <span className="text-red-400 font-semibold">strong success stories</span> from the ground up.
+                    This is how you earn <span className="text-red-400 font-semibold">deep buyer trust</span> with strong personal branding video that speaks for you 24/7
                   </p>
                 </div>
               </div>
@@ -212,7 +212,7 @@ function HomePage() {
           <div className="text-center">
             <div className="bg-gradient-to-r from-emerald-600 to-emerald-500 rounded-2xl p-8 md:p-12 shadow-2xl">
               <h4 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                Are you ready to win?..
+                Are you ready to win?
               </h4>
               <a 
                 href="https://forms.gle/7hvhgiXNQhdsU7Gv6" 
