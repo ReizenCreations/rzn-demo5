@@ -44,7 +44,7 @@ function HomePage() {
       </header>
 
       {/* Hero Video Section */}
-      <section className="pt-6 pb-20 bg-gray-950 text-white relative overflow-hidden">
+      <section className="pt-6 pb-6 bg-gray-950 text-white relative overflow-hidden">
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-2xl md:text-5xl font-bold mb-16 leading-tight">
@@ -85,7 +85,7 @@ function HomePage() {
       </section>
 
       {/* Services Section */}
-      <section className="py-10 bg-gray-950">
+      <section className="py-12 bg-gray-950">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
