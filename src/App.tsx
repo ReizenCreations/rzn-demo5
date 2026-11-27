@@ -11,7 +11,7 @@ const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 // Get public URLs for your logo images
 const headerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('rzn_head_logo01.svg').data.publicUrl;
-const footerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('rzn_foot_logo01.svg').data.publicUrl;
+const footerLogoUrl = supabase.storage.from('RznWebAssets').getPublicUrl('rzn_head_logo01.svg').data.publicUrl;
 
 // Get public URL for video thumbnail
 const videoThumbnailUrl = supabase.storage.from('RznWebAssets').getPublicUrl('VSL_Holder.png').data.publicUrl;
