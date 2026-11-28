@@ -48,7 +48,7 @@ function HomePage() {
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-2xl md:text-5xl font-bold mb-16 leading-tight">
-              Everyone is selling, few are converting... Here's how Reizen helps brands fix that 
+              Everyone is selling, few are converting...Here's how Reizen helps brands fix that 
               <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent"> and scale fast</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed">
@@ -112,7 +112,7 @@ function HomePage() {
               },
               {
                 iconUrl: icon3Url,
-                title: "Growth Hacking Systems",
+                title: "Growth Hacking",
                 description: "",
                 features: ["Powerful Automation", "Funnel Build & Optimization"]
               }
